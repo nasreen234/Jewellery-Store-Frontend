@@ -18,11 +18,11 @@ const renderStars = (rating) => {
 
 const VideoHighlightSection = () => {
   const videoItems = [
-    { src: "https://res.cloudinary.com/diinbpxjm/video/upload/q_auto:low/jewelry-shine_g1qf6m.mp4", title: 'Shining Set', rating: 5 },
+    { src: "https://res.cloudinary.com/diinbpxjm/video/upload/jewelry-shine_g1qf6m.mp4", title: 'Shining Set', rating: 5 },
     { src: "https://res.cloudinary.com/diinbpxjm/video/upload/Chain_asqy95.mp4", title: 'Elegant Chains', rating: 4 },
-    { src: '/videos/Earrings.mp4', title: 'Trendy Earrings', rating: 4.5 },
-    { src: '/videos/NewBangles.mp4', title: 'New Bangles', rating: 4 },
-    { src: 'https://www.w3schools.com/html/mov_bbb.mp4', title: 'Short Necklace', rating: 5 },
+    { src: "https://res.cloudinary.com/diinbpxjm/video/upload/Earrings_mrnd8x.mp4", title: 'Trendy Earrings', rating: 4.5 },
+    { src: "https://res.cloudinary.com/diinbpxjm/video/upload/NewBangles_pm2cy1.mp4", title: 'New Bangles', rating: 4 },
+    { src: "https://res.cloudinary.com/diinbpxjm/video/upload/ShortNecklace_bqkbgl", title: 'Short Necklace', rating: 5 },
   ];
 
   return (

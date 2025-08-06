@@ -1,0 +1,28 @@
+.contact-container {
+  background-color: #fffaf5;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-heading {
+  font-weight: bold;    
+  color: #d4af37; /* Golden */
+}
+
+.contact-form {
+  background-color: #fff;
+  border: 1px solid #eee;
+  margin-bottom: 50px;
+}
+
+.golden-button {
+  background-color: #d4af37;
+  color: #fff;
+  border: none;
+}
+
+.golden-button:hover {
+  background-color: #c19c2a;
+}

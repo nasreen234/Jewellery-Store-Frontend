@@ -1,0 +1,41 @@
+.footer {
+     background-color:rgb(190, 25, 25);
+  color: #f8f9fa;
+}
+
+.footer-brand {
+  font-size: 1.5rem;
+  color: gold;
+  font-weight: bold;
+}
+
+.footer-heading {
+  color: gold;
+  margin-bottom: 1rem;
+}
+
+.footer-link {
+  color: #f8f9fa;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: gold;
+  text-decoration: underline;
+}
+
+.footer-line {
+  border-top: 1px solid #444;
+}
+
+.social-icons a {
+  color: #f8f9fa;
+  margin-right: 15px;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: gold;
+}

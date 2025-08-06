@@ -1,0 +1,12 @@
+
+.dropdown-item {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-item:hover {
+  background-color: #dd1077;
+  color: #2f0ccf4b;
+}

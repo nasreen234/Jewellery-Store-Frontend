@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+body, html {
+  margin: 0;
+  padding: 0;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.table-wrapper {
+  overflow-y: auto;
+  max-height: 400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #343a40; 
   color: white;
+  z-index: 2;
 }
 
-.App-link {
-  color: #61dafb;
+/* Outer container for responsiveness */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 60px;
+  min-height: 100vh;
+background: linear-gradient(to right, #ff4d4f, #d4af37, #800000);
+
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Box for form */
+.login-box {
+  width: 90%;
+  max-width: 420px;
+  padding: 50px;
+  background-color: white;
+  border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+
+/*For Horizontal video*/
+.video-row {
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.video-row::-webkit-scrollbar {
+  display: none;
+}
+
+.video-item {
+  flex-shrink: 0;
+  border: 2px solid gold;
+  transition: transform 0.3s ease;
+}
+
+.video-item:hover {
+  transform: scale(1.05);
+}
+.video-row .position-relative:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.8);
+}
+/*ProductDetailPage*/
+.product-card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hover-shadow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+

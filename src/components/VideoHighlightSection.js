@@ -22,7 +22,7 @@ const VideoHighlightSection = () => {
     { src: '/videos/Chain.mp4', title: 'Elegant Chains', rating: 4 },
     { src: '/videos/Earrings.mp4', title: 'Trendy Earrings', rating: 4.5 },
     { src: '/videos/NewBangles.mp4', title: 'New Bangles', rating: 4 },
-    { src: '/videos/ShortNecklace.mp4', title: 'Short Necklace', rating: 5 },
+    { src: 'https://www.w3schools.com/html/mov_bbb.mp4', title: 'Short Necklace', rating: 5 },
   ];
 
   return (

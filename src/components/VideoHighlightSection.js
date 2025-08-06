@@ -18,7 +18,7 @@ const renderStars = (rating) => {
 
 const VideoHighlightSection = () => {
   const videoItems = [
-    { src: '/videos/jewelry-shine.mp4', title: 'Shining Set', rating: 5 },
+    { src: 'https://res.cloudinary.com/diinbpxjm/videos/upload/jewelry-shine_g1qf6m/jewelry-shine.mp4', title: 'Shining Set', rating: 5 },
     { src: '/videos/Chain.mp4', title: 'Elegant Chains', rating: 4 },
     { src: '/videos/Earrings.mp4', title: 'Trendy Earrings', rating: 4.5 },
     { src: '/videos/NewBangles.mp4', title: 'New Bangles', rating: 4 },
